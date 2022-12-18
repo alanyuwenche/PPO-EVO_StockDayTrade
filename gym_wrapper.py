@@ -17,7 +17,7 @@ def standardScale(aa):
     return x_std, meanV, stdV  
 
 
-with open('/content/Evolutionary-Reinforcement-Learning/envs_repo/train_N.pickle','rb') as f:
+with open('/content/PPO-EVO_StockDayTrade/train_N.pickle','rb') as f:
     data = pickle.load(file = f)
 l = 284 #13:29=> the last one
 dataN = len(data)
